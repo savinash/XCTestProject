@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property(nonatomic,strong)NSNumber *number1;
 
+-(void)updateInteger;
 @end
 

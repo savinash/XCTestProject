@@ -17,11 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"Avi");
-    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+
+-(void)updateInteger{
+    
+    self.number1 = [NSNumber numberWithInt:7];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

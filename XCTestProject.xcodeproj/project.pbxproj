@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E115A2481E68A31400C60AC6 /* MyTestCaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E115A2471E68A31400C60AC6 /* MyTestCaseClass.m */; };
 		E161FA391E675C7E003655F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E161FA381E675C7E003655F7 /* main.m */; };
 		E161FA3C1E675C7E003655F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E161FA3B1E675C7E003655F7 /* AppDelegate.m */; };
 		E161FA3F1E675C7E003655F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E161FA3E1E675C7E003655F7 /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		E161FA451E675C7E003655F7 /* XCTestProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E161FA431E675C7E003655F7 /* XCTestProject.xcdatamodeld */; };
 		E161FA471E675C7E003655F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E161FA461E675C7E003655F7 /* Assets.xcassets */; };
 		E161FA4A1E675C7E003655F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E161FA481E675C7E003655F7 /* LaunchScreen.storyboard */; };
-		E161FA551E675C7F003655F7 /* XCTestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E161FA541E675C7F003655F7 /* XCTestProjectTests.m */; };
 		E161FA601E675C7F003655F7 /* XCTestProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E161FA5F1E675C7F003655F7 /* XCTestProjectUITests.m */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E115A2471E68A31400C60AC6 /* MyTestCaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTestCaseClass.m; sourceTree = "<group>"; };
 		E161FA341E675C7E003655F7 /* XCTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E161FA381E675C7E003655F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E161FA3A1E675C7E003655F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		E161FA491E675C7E003655F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E161FA4B1E675C7E003655F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E161FA501E675C7F003655F7 /* XCTestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E161FA541E675C7F003655F7 /* XCTestProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTestProjectTests.m; sourceTree = "<group>"; };
 		E161FA561E675C7F003655F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E161FA5B1E675C7F003655F7 /* XCTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E161FA5F1E675C7F003655F7 /* XCTestProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTestProjectUITests.m; sourceTree = "<group>"; };
@@ -83,6 +83,7 @@
 		E161FA2B1E675C7E003655F7 = {
 			isa = PBXGroup;
 			children = (
+				E115A2471E68A31400C60AC6 /* MyTestCaseClass.m */,
 				E161FA361E675C7E003655F7 /* XCTestProject */,
 				E161FA531E675C7F003655F7 /* XCTestProjectTests */,
 				E161FA5E1E675C7F003655F7 /* XCTestProjectUITests */,
@@ -128,7 +129,6 @@
 		E161FA531E675C7F003655F7 /* XCTestProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				E161FA541E675C7F003655F7 /* XCTestProjectTests.m */,
 				E161FA561E675C7F003655F7 /* Info.plist */,
 			);
 			path = XCTestProjectTests;
@@ -287,7 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E161FA551E675C7F003655F7 /* XCTestProjectTests.m in Sources */,
+				E115A2481E68A31400C60AC6 /* MyTestCaseClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +511,7 @@
 				E161FA661E675C7F003655F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E161FA671E675C7F003655F7 /* Build configuration list for PBXNativeTarget "XCTestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +520,7 @@
 				E161FA691E675C7F003655F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E161FA6A1E675C7F003655F7 /* Build configuration list for PBXNativeTarget "XCTestProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +529,7 @@
 				E161FA6C1E675C7F003655F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
